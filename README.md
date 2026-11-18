@@ -104,3 +104,8 @@ Python needs `zstandard` (and `pyarrow` for the Parquet export).
   `-O3 -march=native`, LTO/PGO, cache warming between packets.
 - Two threads (feed handler → book) over a lock-free SPSC queue; shared-memory snapshot for the live viewer.
 - Linux system tuning (core isolation, pinning, frequency, huge pages) with `rdtsc` timing.
+
+## License
+
+Code: MIT (see `LICENSE`). CME market data and CME schema files are not part of this repository
+and are not covered by this license.
