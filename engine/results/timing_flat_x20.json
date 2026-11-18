@@ -1,0 +1,25 @@
+{
+ "engine": "flat",
+ "mode": "timing",
+ "speed": 20,
+ "packets": 1595181,
+ "wall_seconds": 89.995,
+ "packets_per_second": 17725,
+ "clock": {"source": "mach_absolute_time", "resolution_ns": 41.67, "overhead_ns": 5.54, "backwards": 0},
+ "framing_errors": 0,
+ "sequence_gaps": 0,
+ "orders_out": 371717,
+ "order_events": {"new": 771444, "change": 160616, "delete": 767705, "new_existing": 0, "change_unknown": 1741, "delete_unknown": 4546},
+ "orders_resting_at_end": 5480,
+ "skipped_order_refs": 0,
+ "latency_ns_per_packet": {
+  "1_queue": {"mean": 687.7, "p50": 0, "p90": 0, "p99": 6292, "p99.9": 88167, "max": 3270667},
+  "2_parse": {"mean": 12.4, "p50": 0, "p90": 0, "p99": 83, "p99.9": 3500, "max": 646250},
+  "3_decode": {"mean": 22.5, "p50": 0, "p90": 42, "p99": 125, "p99.9": 4458, "max": 641833},
+  "4_apply": {"mean": 184.5, "p50": 83, "p90": 375, "p99": 1875, "p99.9": 4625, "max": 1198708},
+  "5_top_of_book": {"mean": 11.6, "p50": 0, "p90": 42, "p99": 42, "p99.9": 333, "max": 662875},
+  "6_strategy": {"mean": 4.8, "p50": 0, "p90": 42, "p99": 42, "p99.9": 42, "max": 51542},
+  "7_out": {"mean": 5.6, "p50": 0, "p90": 42, "p99": 42, "p99.9": 42, "max": 35042},
+  "total": {"mean": 929.1, "p50": 83, "p90": 542, "p99": 7375, "p99.9": 91250, "max": 3276083}
+ }
+}

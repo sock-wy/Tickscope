@@ -1,0 +1,19 @@
+# CME market data is licensed course data: never commit it
+data.nosync/
+*.pcap
+*.pcap.zst
+*.slim
+*.slim.zst
+*.parquet
+
+# CME schema files (download them, see schema/README.md)
+schema/*.xml
+
+# build output
+engine/build/
+
+# Python / OS
+__pycache__/
+*.pyc
+.venv*/
+.DS_Store
